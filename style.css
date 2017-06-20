@@ -186,16 +186,27 @@ nav ul li {
 }
 
 .col-md-3 {
+    padding: 0;
     margin-left: 10px;
     width: 220px;
     height: 250px;
-    border: 2px solid black;
+    border: 1px solid black;
 }
 
 
+.image-showcase {
+    width: 220px;
+    height: 180px;
+    border: 1px solid black;
+}
 
 
-
+.product-info {
+    top: 180px;
+    width: 220px;
+    height: 70px;
+    border: 1px solid black;
+}
 
 
 
