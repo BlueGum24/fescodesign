@@ -6,6 +6,7 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
 
+/*---Global Variables---*/
 
 .clearfix {
     clear: both;
@@ -25,8 +26,18 @@ h4, p, a{
     font-family: 'Raleway';
     color: aliceblue;
     text-decoration: none;
-    font-size: 120%;
 }
+/*---End Global---*/
+
+
+
+
+
+
+
+
+
+/*---Starting header---*/
 
 .outer-header {
     height: auto;
@@ -98,7 +109,7 @@ nav ul li {
     background: #141723;
     width: 380px; 
     left: 70%;
-    top: 500px;
+    top: 480px;
     margin-left: -200px; 
     height: 460px; 
     position: absolute;
@@ -125,16 +136,25 @@ nav ul li {
     color: aliceblue;
     margin-bottom: 15px;
 }
+/*---End Header---*/
 
 
+
+
+
+
+
+
+
+/*Starting About*/
 #overlay2 { 
     border: 1px solid black;
     background: #141723;
     width: 380px; 
     left: 70%;
-    top: 990px;
+    top: 960px;
     margin-left: -200px; 
-    height: 500px; 
+    height: 450px; 
     position: absolute;
     padding: 1%;
 }
@@ -158,6 +178,7 @@ nav ul li {
 }
 
 .inner-about p {
+    font-size: 120%;
     color: #a9a9a9;
 }
 
@@ -171,6 +192,20 @@ nav ul li {
     letter-spacing: 5%;
     line-height: 200%
 }
+
+/*---end about---*/
+
+
+
+
+
+
+
+
+
+
+
+/*---starting spec---*/
 
 .outer-spec {
     height: auto;
@@ -192,7 +227,7 @@ nav ul li {
     width: auto;
 }
 
-.row {
+.outer-spec .row {
     text-align: center;
 }
 
@@ -232,6 +267,92 @@ nav ul li {
 .product-info p {
     color: #bf9e7b;
 }
+
+/*---End Spec---*/
+
+
+
+
+
+
+
+
+
+/*---Starting menu---*/
+
+.outer-menu {
+    text-align: center;
+    background-color: #141723}
+
+.pizza-menu{
+    padding-top: 20px;
+    margin: auto;
+}
+
+.pizza-menu h2 {
+    color: #bf9e7b;
+}
+
+.pizza-menu h3 {
+    color: aliceblue;
+}
+
+.wrapper {
+    width: 100%;
+    margin: 10px auto;
+    position: relative;
+    text-align:center;
+}
+
+.wrapper .container {
+    width: 45%;
+    display:inline-block;
+    margin: 10px;
+}
+
+#food {
+    text-align: left
+}
+
+#price {
+    text-align: left;
+    padding-top: 35px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
