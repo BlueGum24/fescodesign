@@ -352,7 +352,9 @@ nav ul li {
 
 /*Starting Reservations*/
 
-
+.outer-reservations {
+    background-color: #4c4d4f;
+}
 
 
 
