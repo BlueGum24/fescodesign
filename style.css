@@ -282,19 +282,25 @@ nav ul li {
 
 .outer-menu {
     text-align: center;
-    background-color: #141723}
+    background-color: #141723
+}
 
-.pizza-menu{
+.menu-section{
     padding-top: 20px;
     margin: auto;
 }
 
-.pizza-menu h2 {
+.menu-section h2 {
     color: #bf9e7b;
 }
 
-.pizza-menu h3 {
+.menu-section h3 {
     color: aliceblue;
+    font-size: 120%;
+}
+
+.menu-section p {
+    font-size: 90%;
 }
 
 .wrapper {
@@ -311,17 +317,40 @@ nav ul li {
 }
 
 #food {
-    text-align: left
+    text-align: left;
+    padding: 0;
 }
 
 #price {
+    width: 70px;
+    height: auto
     text-align: left;
-    padding-top: 35px
+    padding: 10px;
 }
 
 
+.btn {
+    background: #bf9e7b;
+    color: black;
+    padding: 15px 50px 15px 50px;
+    text-decoration: none;
+    transition: background 0.5s ease;
+    margin-bottom: 5%;
+}
+
+.btn:hover {
+    background: #dbc7b1;
+    text-decoration: none;
+}
+
+/*End Menu-section*/
 
 
+
+
+
+
+/*Starting Reservations*/
 
 
 
