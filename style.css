@@ -40,7 +40,12 @@ h4, p, a{
 /*---Starting header---*/
 
 .outer-header {
-    height: auto;
+    background: 
+        linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+        
+        url("https://images.pexels.com/photos/5317/food-salad-restaurant-person.jpg?w=1260&h=750&auto=compress&cs=tinysrgb");
+    background-size: cover;
+    height: 100%;
     width: 100%;
     background-color: #4c4d4f;
 }
@@ -109,7 +114,7 @@ nav ul li {
     background: #141723;
     width: 380px; 
     left: 70%;
-    top: 480px;
+    top: 570px;
     margin-left: -200px; 
     height: 460px; 
     position: absolute;
@@ -148,11 +153,12 @@ nav ul li {
 
 /*Starting About*/
 #overlay2 { 
+    background: url("http://img1.wsimg.com/isteam/ip/113eca23-1c80-4495-aee5-59b9a626bc81/20170202_162656.jpg/:/rs=w:400,cg:true,m");
+    background-size: cover;
     border: 1px solid black;
-    background: #141723;
     width: 380px; 
     left: 70%;
-    top: 960px;
+    top: 1050px;
     margin-left: -200px; 
     height: 450px; 
     position: absolute;
@@ -208,6 +214,11 @@ nav ul li {
 /*---starting spec---*/
 
 .outer-spec {
+    background: 
+        linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+        
+        url("https://images.pexels.com/photos/48726/pexels-photo-48726.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
+    background-size: cover;
     height: auto;
     background-color: #4c4d4f;
     text-align: center;
@@ -357,8 +368,17 @@ nav ul li {
 }
 
 
+.outer-reservations h3{
+    font-size: 120%;
+    color: aliceblue;
+    font-weight: 100;
+}
 
-
+.outer-reservations input{
+    width: 300px;
+    height: 60px;
+    border-radius: 5px;
+}
 
 
 
