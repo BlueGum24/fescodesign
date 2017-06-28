@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="style.css" />	
 	<link href="css/font-awesome.min.css" rel="stylesheet"/>
 	<link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -65,7 +66,10 @@
             <h3>OPEN HOURS</h3>
             <p>Moday - Friday...................8:00AM- 11:00pm</p>
             <p>Saturday - Sunday................8:00AM- 11:00pm</p>
-            <button class="btn text-center">TABLE RESERVATION</button>
+            <div class="container text-center">
+                <button class="btn text-center">TABLE RESERVATION</button>
+            </div>
+            
         </div>
         <div class="open-box" id="overlay2"></div>
     </div>
@@ -340,18 +344,76 @@
     
     
     
-    
-    
     <!--Starting Reservations-->
     
     <div class="outer-reservations">
+        
         <section class="inner-section">
-            <h1 class="heading">Book a Table</h1>
-            <p>Suo duis reprehendunt ea. Elit voluptaria adipiscing eam an</p>
+            <h1 class="heading text-center">Book a Table</h1>
+            <p class="text-center">Suo duis reprehendunt ea. Elit voluptaria adipiscing eam an</p>
+            
+            <div class="container text-center" id="input-container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <form>
+                            <label>CHOOSE A DATE</label>
+                            <input type="date" value="2017-11-17" id="input-text">
+                        </form>
+                    </div>
+                    <div class="col-md-4">
+                        <form>
+                            <label>CHOOSE A TIME</label>
+                            <input type="time" value="17:30" id="input-text">
+                        </form>
+                    </div>
+                    <div class="col-md-4">
+                        <form>
+                            <label>HOW MANY PEOPLE</label>
+                            <input type="number" value="2" id="input-text">
+                        </form>
+                    </div>
+                    
+                    <button class="btn">Book Now</button>
+                    
+                </div>
+            </div>
         </section>
     </div>
     
-    
+    <footer class="outer-footer">
+        <section class="inner-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3" id="left-col">
+                        <h3>ADDRESS:</h3>
+                        <p>17 Awesome Street Belgrade<br>SR 877900</p>
+                        <button class="btn footer-btn">View Map</button>
+                    </div>
+                    <div class="col-md-6" id="middle-col">
+                        <h3>OPENING HOURS:</h3>
+                        <p>Monday-Friday...................................8:00AM - 11:00PM</p>
+                        <p>Monday-Friday...................................8:00AM - 10:00PM</p>
+                        <button class="btn footer-btn">TABLE RESERVATION</button>
+                    </div>
+                    <div class="col-md-3" id="right-col">
+                        <h3>WE ARE SOCIAL:</h3>
+                        <p>Feel free to check our social media pages</p>
+                        <div class="social">
+                            <ul class="social-icons">
+                                <li><a href="#" class="social-icon"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#" class="social-icon"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#" class="social-icon"><i class="fa fa-google-plus"></i></a></li>
+                                <li><a href="#" class="social-icon"><i class="fa fa-youtube"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <p>&copy; 2017 - Fesco All Rights Reserved </p>
+            
+        </section>
+    </footer>
     
     
     
